@@ -1,5 +1,5 @@
 // let a = 10
-// const b = 30
+const b = 30
 var c= 300 // global scope
 let a = 8000
 // scope is {}
@@ -8,11 +8,11 @@ if(true)
 {
     let a = 10
     const b = 30
-    //var c= 30
+    var c= 30
 }
-// console.log(a)
-//console.log(b)
-//console.log(c);
+console.log(a)
+console.log(b)
+console.log(c);
 
 
 
@@ -27,7 +27,7 @@ function one()
         console.log(username)
         console.log(website)
     }
-    //console.log(website)
+    console.log(website)
     //two()
 }
 //one()
@@ -38,12 +38,12 @@ if(true)
         if(username==="tushar")
             {
                 const website = "yt"
-                //console.log(username+website)
-                //console.log(website)
+                console.log(username+website)
+                console.log(website)
             }
             
     }
-//console.log(username)
+console.log(username)
 
 
 
@@ -52,9 +52,9 @@ if(true)
 
 function addone(num)
 {
-    //console.log(num+1)
+    console.log(num+1)
     return num+1
-    // console.log(num)
+    console.log(num)
 }
 addone(1)
 
